@@ -1,7 +1,7 @@
-## IDECDash Backend
+# IDECDash Backend
 IDECDash Backend es un componente de IDECDash, visite la wiki del repositorio para encontrar más información sobre este y otros componentes.
 
-### Requisitos
+## Requisitos
 - Php 8.0
 - Postgresql 13
 
@@ -11,7 +11,7 @@ El motor de base de datos está limitado a postgresql, el restos de los driver p
 Se recomienda utilizar Redis como driver de caché.
 
 
-### Instalación
+## Instalación
 
 1) Descarga el proyecto
 
@@ -33,7 +33,7 @@ Se recomienda utilizar Redis como driver de caché.
 
 `php artisan migrate`
 
-### Configuración
+## Configuración
 Una vez que tengamos nuestro fichero de entorno podremos ver que posee nuevas claves en comparación a un fichero de entorno tradicional de laravel, para saber que valores asignar se explicará que hace cada apartado.
 
  
