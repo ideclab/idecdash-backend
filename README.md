@@ -54,7 +54,7 @@ PROCESS_REQUETS_CHUNK_SIZE=5000000
 
 Limita la cantidad de solicitudes de actualización de reprotes
 
-**Observación: ** Actualmente canvas data portal tiene un desfase de 48 Horas y una limitancia de actualización de datos de 24 Hrs. Tener un tiempo de actualización menor consumirá procesamiento y no reflejará datos diferentes.
+**Observación:** Actualmente canvas data portal tiene un desfase de 48 Horas y una limitancia de actualización de datos de 24 Hrs. Tener un tiempo de actualización menor consumirá procesamiento y no reflejará datos diferentes.
 ````
 COURSE_UPDATE_HOURS_LIMIT=24
 ````
