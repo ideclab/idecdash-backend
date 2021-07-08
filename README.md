@@ -38,11 +38,17 @@ Una vez que tengamos nuestro fichero de entorno podremos ver que posee nuevas cl
 
  
 
+------------
+
+
 Habilita el modo de debug para no notificar a usuarios finales y define un correo en donde recibirás sus notificaciones.
 ````
 NOTIFICATIONS_DEBUG_MODE=true 
 NOTIFICATIONS_DEBUG_EMAIL=example@domain.cl
 ````
+
+------------
+
 
 
 La aplicación procesará en lotes (chunk) las interacciones, define una cantidad acorde a sus capacidades de procesamiento.
@@ -52,12 +58,18 @@ PROCESS_REQUETS_CHUNK_SIZE=5000000
 ````
 
 
+------------
+
+
 Limita la cantidad de solicitudes de actualización de reprotes
 
 **Observación:** Actualmente canvas data portal tiene un desfase de 48 Horas y una limitancia de actualización de datos de 24 Hrs. Tener un tiempo de actualización menor consumirá procesamiento y no reflejará datos diferentes.
 ````
 COURSE_UPDATE_HOURS_LIMIT=24
 ````
+
+------------
+
 
 Distribución de cursos para cada cola de trabajo, se asigna la cantidad de miembros maximos por cola.
 ````
@@ -67,10 +79,16 @@ MAX_MEMBERS_BIG_COURSES=95
 MAX_MEMBERS_HEAVY_COURSES=3000
 ````
 
+------------
+
+
 Define el dominio donde se encontrará el frontend
 ````
 FRONTEND_URL= https://www.example.com
 ````
+
+------------
+
 
 Agrega la url de tu instancia de Canvas LMS. Registra una nueva aplicación OAuth en Canvas LMS y agrega el id y secreto que te proporcionará.
 ````
