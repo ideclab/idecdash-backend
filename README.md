@@ -1,4 +1,5 @@
 ## IDECDash Backend
+IDECDash Backend es un componente de IDECDash, visite la wiki del repositorio para encontrar más información sobre este y otros componentes.
 
 ### Requisitos
 - Php 8.0
@@ -53,7 +54,7 @@ PROCESS_REQUETS_CHUNK_SIZE=5000000
 
 Limita la cantidad de solicitudes de actualización de reprotes
 
-**Observación: **Actualmente canvas data portal tiene un desfase de 48 Horas y una limitancia de actualización de datos de 24 Hrs. Tener un tiempo de actualización menor consumirá procesamiento y no reflejará datos diferentes.
+**Observación: ** Actualmente canvas data portal tiene un desfase de 48 Horas y una limitancia de actualización de datos de 24 Hrs. Tener un tiempo de actualización menor consumirá procesamiento y no reflejará datos diferentes.
 ````
 COURSE_UPDATE_HOURS_LIMIT=24
 ````
@@ -77,5 +78,3 @@ CANVAS_URL=https://your_instance.instructure.com
 CANVAS_CLIENT_ID= 
 CANVAS_CLIENT_SECRET= 
 ````
-
-##### Ir a la wiki para conocer más sobre IDECDash Backend
