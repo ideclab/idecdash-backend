@@ -1,18 +1,9 @@
-### IdecDash Back End
+## IDECdash Backend
 
-Idec BackEnd end es parte del proyecto IdecDash construido con Lavavel conectado a una base de datos Postgres, para crear el backend de IdecDash Front. En el backend se procesan y ordenan los datos extraidos desde Canvas Data Portal.
+IDECdash Backend es el encargado de disponibilizar mediante una API todos los datos necesarios para renderizar el contenido de IDECDash Frontend. 
 
-### Funcionalidades
 
-- Autentificación mediante token de Canvas
-- Guardado de datos en base de datos
-- Gestor de notificaciones 
-- Procesamiento de datos
-
-### Datos
-- Los datos son obtenidos desde Canvas Data Portal https://portal.inshosteddata.com/docs
-
-### Instalación
+## Instalación
 
 #### Descargar el proyecto
 `git clone https://github.com/xxxxx/interactive_dashboard_backend/`
