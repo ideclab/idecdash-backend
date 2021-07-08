@@ -13,17 +13,20 @@ Se recomienda utilizar Redis como driver de caché.
 ### Instalación
 
 1) Descarga el proyecto
+
 `git clone https://github.com/xxxxx/interactive_dashboard_backend/`
 
 2) Instala las dependencias
+
 `composer update`
 
 3) Crea una base de datos en postgresql y ejecuta en ella el script DDL ubicado en:
+
 `/LoadCanvasData/canvas_data_portal_ddl.sql`
 
-4) Copia el fichero de entorno `.env.example` y renombra la copia por `.env`
+4) Copia la plantilla del fichero de entorno `.env.example` y renombra la copia por `.env`
 
-5) Modifica el fichero de entorno (Ve el apartado de configuración)
+5) Modifica el fichero de entorno `.env` (Ve el apartado de configuración para entender las nuevas claves)
 
 6) Ejecuta las migraciones
 `php artisan migrate`
