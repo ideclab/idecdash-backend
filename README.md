@@ -90,7 +90,10 @@ FRONTEND_URL= https://www.example.com
 ------------
 
 
-Agrega la url de tu instancia de Canvas LMS. Registra una nueva aplicación OAuth en Canvas LMS y agrega el id y secreto que te proporcionará.
+Agrega la url de tu instancia de Canvas LMS. Registra una nueva aplicación OAuth en Canvas LMS y agrega el id y secreto que te proporcionará. 
+
+**Observación:** La instancia Oauth creada en Canvas LMS es la misma que se utilizará en IDECDash Frontend e IDECDash Backend, si ya haz creado una deberás reutilizar las credenciales.
+`
 ````
 CANVAS_URL=https://your_instance.instructure.com
 CANVAS_CLIENT_ID= 
